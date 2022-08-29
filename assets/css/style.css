@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+
+header{
+    display: flex;
+    background-color: #447348;
+    padding: 40px;
+    text-align: center;
+    color: antiquewhite;
+    justify-content: space-between;
+}
+
+nav {
+    text-align: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 30px;
+    margin: 9px;
+}
+
+li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.texture {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(#);
+    background-size: cover;
+    background-position: center;
+}
