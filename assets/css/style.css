@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    padding: 20px;
 }
 
 body {
@@ -21,7 +22,7 @@ header{
 }
 
 nav {
-    text-align: center;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -36,6 +37,14 @@ li a {
     text-decoration: none;
 }
 
+main {
+    background-color: antiquewhite;
+}
+
+main section {
+    padding: 2vh;
+}
+
 h1 {
     font-size: 48px;
 }
@@ -44,7 +53,72 @@ h1 {
     height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(#);
+    background-image: url(../images/mountains.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.about-me {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+aside {
+    display: flex;
+    float: left;
+    width: 20%;
+    justify-content: center;
+    font-size: 5vh;
+}
+
+.about-me-content {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 80%;
+}
+
+.about-me-content p {
+    margin: 5px;
+}
+
+.work-content {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 80%;
+}
+
+.main-project-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 2px solid green;
+    padding: 50px;
+    margin: 20px;
+    justify-content: center, space-evenly;
+    just;
+}
+
+.main-project-card header {
+    font-size: x-large;
+    background-color: none;
+}
+
+.main-project-card p {
+    font-size: medium;
+}
+
+.secondary-project-card {
+    display: inline-flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+    border: 2px solid green;
+    padding: 50px;
+    margin: 20px;
+    background-image: url(../images/wood\ grain.JPG);
 }
