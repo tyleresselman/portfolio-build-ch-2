@@ -39,10 +39,7 @@ li a {
 
 main {
     background-color: antiquewhite;
-}
-
-main section {
-    padding: 2vh;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -53,35 +50,35 @@ h1 {
     height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(../images/mountains.jpg);
+    background-image: url(../images/scotland.JPG);
     background-size: cover;
     background-position: center;
 }
 
-.about-me {
+h2 {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin: 15px;
-}
-
-aside {
-    display: flex;
-    float: left;
-    width: 20%;
-    justify-content: center;
+    justify-content: start;
+    margin: 5%;
+    padding: 5%;
     font-size: 5vh;
 }
 
-.about-me-content {
+section {
     display: flex;
-    flex-direction: column;
-    float: right;
-    width: 80%;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .about-me-content p {
-    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: ;
+    padding: 5%;
+
 }
 
 .work-content {
@@ -94,21 +91,29 @@ aside {
 .main-project-card {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    background-image: url(../images/deployed\ app.png);
+    max-width: 100%;
     border: 2px solid green;
     padding: 50px;
     margin: 20px;
     justify-content: center, space-evenly;
-    just;
+}
+
+.main-project-card a {
+    color: antiquewhite;
+    text-decoration: none;
 }
 
 .main-project-card header {
+    display: flex;
+    flex-;
     font-size: x-large;
     background-color: none;
 }
 
 .main-project-card p {
     font-size: medium;
+    justify-content: center;
 }
 
 .secondary-project-card {
@@ -121,4 +126,21 @@ aside {
     padding: 50px;
     margin: 20px;
     background-image: url(../images/wood\ grain.JPG);
+}
+
+.contact-me .section-title {
+    display: flex;
+    align-items: center;
+}
+
+.contact-me-content {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    margin: 9px;
+    justify-content: space-evenly;
+}
+
+.contact-me-content a {
+    color: black;
 }
