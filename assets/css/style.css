@@ -76,7 +76,7 @@ article {
 .about-me-content p {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: ;
+    flex-direction: column;
     padding: 5%;
 
 }
@@ -106,7 +106,7 @@ article {
 
 .main-project-card header {
     display: flex;
-    flex-;
+    align-items: center;
     font-size: x-large;
     background-color: none;
 }
@@ -143,4 +143,12 @@ article {
 
 .contact-me-content a {
     color: black;
+}
+
+@media screen and (max-width: 768px) {
+    header,
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
 }
