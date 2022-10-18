@@ -104,6 +104,12 @@ article {
     text-decoration: none;
 }
 
+.secondary-project-card a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+
 .main-project-card header {
     display: flex;
     align-items: center;
